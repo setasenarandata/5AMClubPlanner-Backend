@@ -1,7 +1,7 @@
 const express = require('express')
 const getFirstHour = require('./services/firstHour.js')
 const getFiveGoals = require('./services/fiveGoals')
-const PORT = process.env.PORT || 2500
+const PORT = process.env.PORT || 5050
 
 const app = express()
 
